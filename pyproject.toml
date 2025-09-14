@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ml-practice"
+version = "0.1.0"
+description = ""
+authors = ["Artyom N <nekhaichik.a@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+numpy = "^2.3.3"
+matplotlib = "^3.10.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
